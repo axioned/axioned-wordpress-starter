@@ -1,0 +1,80 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.8.11",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-custom-theme",
+        "version": "1.0",
+        "type": "wordpress-theme",
+        "dist": {
+          "type": "zip",
+          "url": "https://axioned.xyz/axioned-theme.zip"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
+    }
+  ],
+  "require": {
+    "mnsami/composer-custom-directory-installer": "1.1.*",
+    "johnpbloch/wordpress": "5.8",
+    "wp-custom-theme": "*",
+    "wpackagist-plugin/all-in-one-wp-migration": "*",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "wpackagist-plugin/wordfence": "*",
+    "wpackagist-plugin/login-recaptcha": "*",
+    "wpackagist-plugin/simple-history": "*",
+    "wpackagist-plugin/wp-smushit": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/disable-comments": "*",
+    "wpackagist-plugin/wp-super-cache": "*",
+    "wpackagist-plugin/protect-wp-admin": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "wordpress/wp-content/themes/{$name}": [
+        "wp-custom-theme"
+      ],
+      "wordpress/wp-content/plugins/{$name}/": [
+        "wpackagist-plugin/all-in-one-wp-migration",
+        "wpackagist-plugin/wordfence",
+        "wpackagist-plugin/login-recaptcha",
+        "wpackagist-plugin/simple-history",
+        "wpackagist-plugin/wp-smushit",
+        "wpackagist-plugin/redirection",
+        "wpackagist-plugin/disable-comments",
+        "wpackagist-plugin/wp-super-cache",
+        "wpackagist-plugin/protect-wp-admin"
+      ],
+      "wordpress/wp-content/plugins/advanced-custom-fields-pro": [
+        "advanced-custom-fields/advanced-custom-fields-pro"
+      ]
+    }
+  }
+}
