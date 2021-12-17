@@ -21,17 +21,17 @@ The theme is build by the Axioned developers which has all the minimum files/tem
 
 - Composer file with all the dependencies listed.
 - WordPress plugin which are frequently used on the projects like
-[Advance Custom Field](https://www.advancedcustomfields.com/resources/) - for maping side data with the helpp of custom fields.
-[Akismet](https://wordpress.org/plugins/akismet/) - protect agains spam attack.
-[All in one wp migration](https://wordpress.org/plugins/all-in-one-wp-migration/) - for migration database + code package.
-[Disable comments](https://wordpress.org/plugins/disable-comments/) - Disable comment feature completely if not in used on the project. 
-[Login recaptcha](https://wordpress.org/plugins/login-recaptcha/) - add security on login page to avoid any bot attacks.
-[WP Hide login](https://wordpress.org/plugins/wps-hide-login/) - protect wp-admin URL.
-[Redirection](https://wordpress.org/plugins/redirection/) - for adding redirect rules. 
-[Simple history](https://wordpress.org/plugins/simple-history/) - to track CMS dasboard history.
-[Wordfence](https://wordpress.org/plugins/wordfence/) - security plugin.
-[WP Smushit](https://wordpress.org/plugins/wp-smushit/) - image optimisation plugin.
-[WP Super cache](https://wordpress.org/plugins/wp-super-cache/) - cache plugin.
+    - [Advance Custom Field](https://www.advancedcustomfields.com/resources/) - for maping side data with the help of custom fields.
+    - [Akismet](https://wordpress.org/plugins/akismet/) - protect agains spam attack.
+    - [All in one wp migration](https://wordpress.org/plugins/all-in-one-wp-migration/) - for migration database + code package.
+    - [Disable comments](https://wordpress.org/plugins/disable-comments/) - Disable comment feature completely if not in used on the project. 
+    - [Login recaptcha](https://wordpress.org/plugins/login-recaptcha/) - add security on login page to avoid any bot attacks.
+    - [WP Hide login](https://wordpress.org/plugins/wps-hide-login/) - protect wp-admin URL.
+    - [Redirection](https://wordpress.org/plugins/redirection/) - for adding redirect rules. 
+    - [Simple history](https://wordpress.org/plugins/simple-history/) - to track CMS dasboard history.
+    - [Wordfence](https://wordpress.org/plugins/wordfence/) - security plugin.
+    - [WP Smushit](https://wordpress.org/plugins/wp-smushit/) - image optimisation plugin.
+    - [WP Super cache](https://wordpress.org/plugins/wp-super-cache/) - cache plugin.
 
 - Navbar & [WP Menu Walker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker) that outputs the WP nav menu.
 - [Axioned Theme package](https://axioned.xyz/axioned-theme.zip) - default WordPress theme.
