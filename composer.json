@@ -32,7 +32,7 @@
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
-          "url": "https://axioned.xyz/axioned-theme.zip"
+          "url": "https://github.com/prdxn-org/axioned-wordpress-starter/releases/download/axioned-theme/axioned-theme.zip"
         },
         "require": {
           "philippbaschke/acf-pro-installer": "^1.0",
