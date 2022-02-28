@@ -54,7 +54,14 @@
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/disable-comments": "*",
     "wpackagist-plugin/wp-super-cache": "*",
-    "wpackagist-plugin/protect-wp-admin": "*"
+    "wpackagist-plugin/protect-wp-admin": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+    "squizlabs/php_codesniffer": "3.*",
+    "wp-coding-standards/wpcs": "2.3.0",
+    "phpcompatibility/phpcompatibility-wp": "*"
+  },
+  "scripts": {
+    "lint-wpcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs ./wp-content/themes/axioned-theme"
   },
   "extra": {
     "installer-paths": {
