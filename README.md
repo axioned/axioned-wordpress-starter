@@ -4,9 +4,10 @@
 ## Included
 - `.gitignore` - That ignores all WordPress core files, default themes, plugins, system files and node modules or developement specific stuffs.
 - `composer.json` - Used for WordPress plugins and other WP dependancies along with WP core files and <b>AXIONED</b> default theme package.
+- `.editorconfig` - Basic editor config that works with WP Coding Standards.
+- `phpcs.xml` - (https://github.com/WordPress/WordPress-Coding-Standards) - Basic PHP Code Sniffer configuration using the WP Coding Standards.
 - `readme.md` - This file.
 - Theme starting point - See below.
-
 
 ## Requirements
 - Apache, PHP v7.4+, MySQL, phpmyadmin.
@@ -99,3 +100,4 @@ Used for installing initial WordPress setup, plugins and other dependencies on p
     Configuration file for gulp. A toolkit to automate & enhance your developement workflow
 JS minification, CSS minification, optimisation, handeling vendor prefixes for CSS, ES6, SASS, ect.
 
+#
