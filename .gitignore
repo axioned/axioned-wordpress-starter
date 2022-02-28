@@ -13,7 +13,7 @@ thumb.db
 Thumbs.db
 
 # Ignore everything in the root except the "project-folder/wp-content" directory.
-/*
+#/*
 !favicon.ico
 !.gitignore
 !static/
@@ -26,6 +26,7 @@ vendor
 
 # Ignore everything in the "wp-content" directory, except "mu-plugins", "plugins" and "themes"
 wp-content/*
+/wp-content/plugins/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
@@ -55,3 +56,105 @@ wp-content/wflogs/
 .htaccess
 .htpasswd
 .env
+
+
+# wp core (as of 5.3.0)
+/db-config.php
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-app.php
+/wp-atom.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-commentsrss2.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-feed.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-rdf.php
+/wp-rss.php
+/wp-rss2.php
+/wp-pass.php
+/wp-register.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/wp-admin
+/wp-includes
+
+
+# Some other files which may be desirable to skip under certain circumstances
+#.listing
+#plugins/wp-file-cache/cache
+#.cache
+#temp
+#tmp
+#*.tmp
+#imagecache*
+#*_backup
+#gt-cache
+#wp-config-sample.php
+#/wp-content/w3tc*
+#/wp-content/w3-*
+#/wp-content/uploads/snapshots
+#/wp-content/backup*
+#/wp-content/uploads/backup*
+#/wp-content/temp*
+#log.txt
+#debug.log
+#/wp-content/plugins/plugins
+#.a
+#w3tc/dbcache
+#w3tc/objectcache
+#w3tc/pgcache
+#w3tc/
+#plugins/w3-total-cache
+#pclzip*
+#*.gz
+#*.zip
+#*.tar
+#*.tgz
+
+# Large and binary files
+# NOTE:
+#   It is generally considered bad practice to version control binary asset
+#   files in the same repo as text code, but you can attempt to proceed anyway
+#   by commenting out these lines.
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi

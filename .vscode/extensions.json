@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "neilbrayfield.php-docblocker",
+    "wongjn.php-sniffer",
+    "stylelint.vscode-stylelint",
+    "bmewburn.vscode-intelephense-client",
+    "wordpresstoolbox.wordpress-toolbox",
+    "claudiosanches.woocommerce",
+    "gencer.html-slim-scss-css-class-completion",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}
