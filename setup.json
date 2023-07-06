@@ -1,0 +1,115 @@
+{
+  "version": "latest",
+  "dbname": "wp_project_name",
+  "dbuser": "phpmyadmin",
+  "dbpass": "root",
+  "dbhost": "localhost",
+  "site_url": "http://localhost/wp-cli-setup-wp",
+  "title": "AXIONED | Blog Site",
+  "admin_name": "axioned",
+  "admin_password": "admin",
+  "admin_email": "test@axioned.com",
+  "axioned_theme": "https://github.com/axioned/axioned-wordpress-starter-old/releases/download/v3-security-release/axioned-theme.zip",
+  "pluginListInstall": [
+    {
+      "name": "acf-pro",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "all-in-one-wp-migration",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "disable-comments",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "wps-hide-login",
+      "status": false,
+      "version": ""
+    },
+    {
+      "name": "login-recaptcha",
+      "status": false,
+      "version": ""
+    },
+    {
+      "name": "redirection",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "simple-history",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "wordfence",
+      "status": false,
+      "version": ""
+    },
+    {
+      "name": "wp-smushit",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "wp-super-cache",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "classic-editor",
+      "status": true,
+      "version": ""
+    }
+  ],
+    "pluginListUninstall": [],
+  "pluginList": [
+    {
+      "name": "advanced-custom-fields"
+    },
+    {
+      "name": "acf-pro"
+    },
+    {
+      "name": "all-in-one-wp-migration"
+    },
+    {
+      "name": "disable-comments"
+    },
+    {
+      "name": "disable-wordpress-updates"
+    },
+    {
+      "name": "login-recaptcha"
+    },
+    {
+      "name": "wps-hide-login"
+    },
+    {
+      "name": "redirection"
+    },
+    {
+      "name": "simple-history"
+    },
+    {
+      "name": "wordfence"
+    },
+    {
+      "name": "wp-smushit"
+    },
+    {
+      "name": "wp-super-cache"
+    },
+    {
+      "name": "classic-editor"
+    },
+    {
+      "name": "auto-image-attributes-from-filename-with-bulk-updater"
+    }
+  ]
+}

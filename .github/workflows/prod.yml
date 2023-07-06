@@ -1,0 +1,32 @@
+# # This is a basic workflow to help you get started with Actions
+# name: Auto Deployment workflow for Production environment
+
+# # Controls when the workflow will run
+# on:
+#   # Triggers the workflow on push request, but only for the main branch
+#   push:
+#     branches: [ main ]
+    
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     # Deploy Files on the server using rsync command and later delete the cache folder from server post deployment
+#     - uses: actions/checkout@v2
+#     - name: Deployment on WP Engine Production server
+#       env:
+#         dest: 'remote_username@remote_host.ssh.wpengine.net'
+#       run: |
+#         echo "${{secrets.DEV_DEPLOY_KEY_PRIVATE}}" > deploy_key
+#         chmod 600 ./deploy_key
+#         rsync -chav -e 'ssh -i ./deploy_key -o StrictHostKeyChecking=no' \
+#           --exclude /deploy_key \
+#           --exclude /.git/ \
+#           --exclude /.gitignore/ \
+#           --exclude /.github/ \
+#           --exclude /.github/workflows \
+#           --exclude /node_modules/ \
+#           ./ ${{env.dest}}:/sites/prod123v
+#         ssh -i ./deploy_key -o StrictHostKeyChecking=no ${{env.dest}} 'rm -r /sites/prod123v/wp-content/cache -f'
+

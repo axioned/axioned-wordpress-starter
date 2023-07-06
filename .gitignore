@@ -1,0 +1,75 @@
+# OS or IDE folders/files to ignore
+*~
+._*
+*.lock
+*.DS_Store
+*.swp
+*.out
+.cache
+.project
+.settings
+nbproject
+thumb.db
+Thumbs.db
+
+# Ignore everything in the root except the "project-folder/wp-content" directory.
+/*
+!favicon.ico
+!.gitignore
+!static/
+!html/
+!composer.json
+!test
+node-modules
+composer.lock
+vendor
+!.github/
+!setup.json
+!env.json
+!setup.php
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except "mu-plugins", "plugins" and "themes"
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you specify
+#wp-content/plugins/*
+wp-content/plugins/developer
+#!wp-content/plugins/iweb-core-functionality/
+
+# Ignore all the twenty-x themes
+wp-content/themes/twenty*
+
+# Ignore static modules
+static/node_modules/
+static/.sass-cache
+wp-content/themes/node_modules/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/.sass-cache/
+wp-content/themes/*/.DS_Store
+wp-content/themes/**/style.css.map
+wp-content/themes/**/css/style.css.map
+wp-content/themes/**/package-lock.json
+
+wp-config.php
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+.htaccess
+.htpasswd
+.env
+
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+wp-content/plugins/all-in-one-wp-migration/storage/index.html
+
+# ignore all mu-plugins, plugins, and themes
+# unless explicitly whitelisted at the end of this file
+
+wp-content/themes/twentytwentytwo/
+# ignore index.php in plugins folder
+wp-content/plugins/index.php
