@@ -28,6 +28,7 @@ vendor
 !env.json
 !setup.php
 !wp-content/
+!README.md
 
 # Ignore everything in the "wp-content" directory, except "mu-plugins", "plugins" and "themes"
 wp-content/*
