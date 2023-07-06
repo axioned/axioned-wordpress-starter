@@ -9,7 +9,7 @@
   "admin_name": "axioned",
   "admin_password": "admin",
   "admin_email": "test@axioned.com",
-  "axioned_theme": "https://github.com/axioned/axioned-wordpress-starter-old/releases/download/v3-security-release/axioned-theme.zip",
+  "axioned_theme": "https://github.com/axioned/axioned-wordpress-starter/releases/download/v3-security-release/axioned-theme.zip",
   "pluginListInstall": [
     {
       "name": "acf-pro",
