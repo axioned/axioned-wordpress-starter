@@ -12,7 +12,7 @@
 ## Requirements
 - WP-CLI Environment installed, Apache, PHP v7.0+, MySQL, phpmyadmin.
 - Minimum node version `12.22.7` is required for gulp
-- WP CLI Installation using this [link](https://make.wordpress.org/cli/handbook/guides/installing/#installing-via-composer)
+- For WP CLI Installation use this [link](https://make.wordpress.org/cli/handbook/guides/installing/#installing-via-composer)
 
 
 ## Starter Repo
@@ -58,7 +58,7 @@ The theme is build by the Axioned developers which has all the minimum files/tem
     - `title` add project name as site title
     - `admin_email` add your axioned email id here
     - `pluginListInstall` here add and remove plugin as per project requirement
-10. `wp --require=setup.php setup` - Run WP-CLI command to begin with WordPress setup and installing dependencies.
+10. `wp --require=setup.php setup` - Run WP-CLI command to begin with WordPress setup and installing dependencies. In-case WP CLI is not installed, follow this [link](https://make.wordpress.org/cli/handbook/guides/installing/#installing-via-composer) steps for installation.
 11. Once setup is done add `screenshot` image in your theme folder and change `proxy` path in `gulp.js` file and do necessary changes on `package.json` and `.gitignore` file
 
 
