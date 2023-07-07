@@ -22,7 +22,17 @@
       "version": ""
     },
     {
+      "name": "classic-editor",
+      "status": true,
+      "version": ""
+    },
+    {
       "name": "disable-comments",
+      "status": true,
+      "version": ""
+    },
+    {
+      "name": "disable-wordpress-updates",
       "status": true,
       "version": ""
     },
@@ -58,11 +68,6 @@
     },
     {
       "name": "wp-super-cache",
-      "status": true,
-      "version": ""
-    },
-    {
-      "name": "classic-editor",
       "status": true,
       "version": ""
     }
