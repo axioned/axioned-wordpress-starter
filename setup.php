@@ -42,6 +42,7 @@ function setup_command() {
   install($pluginListInstall, $path, $acf_key);
   uninstall($pluginListUninstall, $path);
   WP_CLI::runcommand('plugin verify-checksums --all --path="'.$path.'"', ['exit_error' => false]);
+  WP_CLI::runcommand('theme delete --all');
   WP_CLI::runcommand('theme install '.$axioned_theme.' --activate --path="'.$path.'"');
 
   WP_CLI::success('Setup Website successfully.');

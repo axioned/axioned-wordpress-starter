@@ -154,8 +154,12 @@ All other assets, SASS, CSS and JS can be found below.
 
 
 ## 3 - Start Development
-1. Make sure the Gulp setup is running for respective project.
-2. `gulp watch` inside of the theme folder to start file watch and hot reload using gulp.
+1. Change `proxy` path in `gulp.js` file and do necessary changes on `package.json` file
+2. For gulp we require node version 12.22.7
+3. Once changes are done open terminal and run `npm install` command 
+4. Make sure the Gulp setup is running for respective project.
+5. `gulp watch` inside of the theme folder to start file watch and hot reload using gulp.
+6. Change Axioned theme name to the project name and change required naming changes to other file in the theme
 
 <br/>
 <em><strong>Note:</strong> For file gulp watch to work properly the npm and other dependencies is properly installed according to the gulp script for that you can connect with your respective project oversee.</em>
